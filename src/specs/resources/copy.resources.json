@@ -1,0 +1,27 @@
+{
+    "data" : [
+        {
+            "url":"/",
+            "title":"About Narcolepsy Link®",
+            "copy":[
+                "Narcolepsy is a chronic neurologic disorder that affects the brain’s ability",
+                "Literature suggests that onset of narcolepsy symptoms occurs"
+            ]
+        },
+        {
+            "url":"/screen/symptom-screener/",
+            "title":"About Narcolepsy Link®",
+            "copy":[
+                "The Narcolepsy Symptom Screener is designed to assess patients’ symptoms using both the"
+            ]
+        },
+        {
+            "url":"/symptom-recognition/narcolepsy-symptoms",
+            "title":"Narcolepsy Link® | Narcolepsy Information for HCPs",
+            "copy":[
+
+            ]
+        }
+
+    ]
+}

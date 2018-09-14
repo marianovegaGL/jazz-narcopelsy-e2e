@@ -1,0 +1,29 @@
+{
+  "name": "jazz-narcopelsy-e2e",
+  "version": "1.0.0",
+  "description": "Jazz Nacropelsy project, e2e tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio wdio.conf.js",
+    "generateMochawesome": "marge ./test-report/report.json --reportTitle 'Copy Report'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pjcalvo/jazz-narcopelsy-e2e.git"
+  },
+  "author": "Pablo Calvo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pjcalvo/jazz-narcopelsy-e2e/issues"
+  },
+  "homepage": "https://github.com/pjcalvo/jazz-narcopelsy-e2e#readme",
+  "dependencies": {
+    "wdio": "^2.0.2",
+    "wdio-mochawesome-reporter": "^2.0.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "wdio-mocha-framework": "^0.6.3",
+    "wdio-selenium-standalone-service": "^0.0.10"
+  }
+}
