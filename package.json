@@ -22,7 +22,7 @@
     "wdio-mochawesome-reporter": "^2.0.1"
   },
   "devDependencies": {
-    "chai": "^3.5.0",
+    "chai": "^3.5.0",    
     "wdio-mocha-framework": "^0.6.3",
     "wdio-selenium-standalone-service": "^0.0.10",
     "wdio-visual-regression-service": "^0.9.0"

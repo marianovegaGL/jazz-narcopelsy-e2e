@@ -64,6 +64,7 @@ test-report/
 
 mochawesome-report.html
 mochawesome-report/
-screenshots/
+screenshots/diff
+screenshots/screen
 
 

@@ -8,7 +8,10 @@ describe('Narcolepsy Copy and Content Check', function () {
         it('matchCopyandImage ' + element.name, function () {
               
             browser.url(element.url);
-            browser.checkViewport();
+            var result = browser.checkViewport()[0];
+            console.log(result.isWithinMisMatchTolerance);
+
+            expect(result.isWithinMisMatchTolerance).to.be.true
 
             expect(browser.getTitle()).to.be.eql(element.title);
           //  console.log("Assert the page title")
