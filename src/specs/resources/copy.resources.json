@@ -1,21 +1,12 @@
 {
     "data" : [
         {
-            "url":"/",
+            "url":"/resources/narcolepsy-faqs/symptom-recognition/",
             "title":"About Narcolepsy Link®",
-            "name":"homePage",
+            "name":"symptom-recognition",
             "copy":[
-                "Narcolepsy is a chronic neurologic disorder that affects the brain’s ability",
-                "Literature suggests that onset of narcolepsy symptoms occurs"
+                "No, not all patients have all 5 narcolepsy symptoms, but every patient with narcolepsy does have excessive daytime sleepiness"
             ]
-        },
-        {
-            "url":"/screen/symptom-screener/",
-            "title":"About Narcolepsy Link®",
-            "name":"Symptom",
-            "copy":[
-                "The Narcolepsy Symptom Screener is designed to assess patients’ symptoms using both the"
-            ]
-        }    
+        }
     ]
 }

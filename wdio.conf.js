@@ -135,10 +135,10 @@ exports.config = {
           referenceName: getScreenshotName(path.join(process.cwd(), 'screenshots/reference')),
           screenshotName: getScreenshotName(path.join(process.cwd(), 'screenshots/screen')),
           diffName: getScreenshotName(path.join(process.cwd(), 'screenshots/diff')),
-          misMatchTolerance: 0.01,
+          misMatchTolerance: 100,
         }),
         viewportChangePause: 300,
-        viewports: [{ width: 1024, height: 768 }],
+        viewports: [{ width: 1200, height: 900 }],
         orientations: ['landscape', 'portrait'],
       },
     // Framework you want to run your specs with.

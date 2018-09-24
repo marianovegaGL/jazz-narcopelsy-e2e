@@ -5,10 +5,12 @@ describe('Narcolepsy Copy and Content Check', function () {
       
     jsonCopy.data.forEach(element => {
 
-        it('matchCopyandImage ' + element.name, function () {
+        it('matchCopyandImage_' + element.name, function () {
               
             browser.url(element.url);
-            var result = browser.checkViewport()[0];
+            browser.element(".wrap-collabsible").click();
+            
+            var result = browser.checkDocument()[0];
             console.log(result.isWithinMisMatchTolerance);
 
             expect(result.isWithinMisMatchTolerance).to.be.true
